@@ -10,7 +10,7 @@
         <!-- categories here -->
         <?php include(TEMPLATE_FRONT . DS . "side_nav.php" ); ?>
 
-
+<h1>Proba!!!</h1>
         <div class="col-md-9">
 
             <div class="row carousel-holder">
@@ -25,7 +25,7 @@
 
             <div class="row">
                 <h1>
- 
+
                 </h1>
 
                 <?php get_products(); ?>

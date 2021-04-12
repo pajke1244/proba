@@ -7,14 +7,14 @@
  <!-- Side Navigation -->
 
 <?php include(TEMPLATE_FRONT . DS . "side_nav.php" ); ?>
-<?php 
+<?php
     $query=query(" SELECT * FROM products where product_id =" .escape_string($_GET['id']). " ");
     confirm($query);
-    while ($row=fetch_array($query)): 
-        
+    while ($row=fetch_array($query)):
+
 ?>
 <div class="col-md-9">
-
+      <h1>Proba</h1>
     <!--Row For Image and Short Description-->
 
     <div class="row">
